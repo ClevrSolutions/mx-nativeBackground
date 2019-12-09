@@ -6,8 +6,8 @@
   "copyright": "Mansystems 2019",
   "author": "Fabian Recktenwald",
   "config": {
-    "widgetPath": "./dist/MxTestProject/widgets",
-    "projectPath": "./dist/MxTestProject/"
+    "widgetPath": "./test/MxTestProject/widgets",
+    "projectPath": "./test/MxTestProject/"
   },
   "packagePath": "mansystems",
   "scripts": {
