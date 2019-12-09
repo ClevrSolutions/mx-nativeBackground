@@ -1,0 +1,38 @@
+{
+  "name": "nativebackground",
+  "widgetName": "NativeBackground",
+  "version": "1.0.0",
+  "description": "Add Background Image",
+  "copyright": "Mansystems 2019",
+  "author": "Fabian Recktenwald",
+  "config": {
+    "widgetPath": "./dist/MxTestProject/widgets",
+    "projectPath": "./dist/MxTestProject/"
+  },
+  "packagePath": "mansystems",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:ts:native",
+    "dev": "pluggable-widgets-tools start:ts:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:ts:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Fabian Recktenwald/nativebackground/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.3.1",
+    "@types/big.js": "^4.0.5",
+    "@types/classnames": "^2.2.6",
+    "@types/jest": "^24.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-native": "^0.57.56"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2"
+  }
+}
