@@ -24,7 +24,7 @@
     "url": "https://github.com/Fabian Recktenwald/nativebackground/issues"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^8.3.1",
+    "@mendix/pluggable-widgets-tools": "^10.21.0",
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.6",
     "@types/jest": "^24.0.0",
